@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Giridhar Reddy | Software Developer Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 60px 0;
+        }
+
+        section {
+            margin-bottom: 80px;
+            scroll-margin-top: 120px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #0f172a;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+
+        .hero img {
+            width: 220px;
+            border-radius: 50%;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media(max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Giridhar Reddy Parlapalli</h1>
+        <p>Associate Software Engineer | Web Developer | Embedded Systems Enthusiast</p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <!-- HOME -->
+        <section id="home" class="hero">
+            <img src="profile.jpeg" alt="Giridhar Reddy">
+            <div>
+                <h2>Welcome to My Portfolio</h2>
+                <p>
+                    I am an Electronics and Communication Engineering graduate currently working as an Associate
+                    Software Engineer.
+                    I specialize in building responsive and user-friendly web applications using HTML, CSS, and
+                    JavaScript.
+                    With a strong foundation in programming and problem-solving, I am passionate about developing
+                    scalable software
+                    solutions and continuously improving my technical expertise.
+                </p>
+                <br>
+                <p>
+                    My goal is to grow into a full-stack developer and contribute to innovative projects that create
+                    real-world impact.
+                </p>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="card">
+                <p>
+                    I am a motivated and detail-oriented software professional with a strong academic background in
+                    Electronics and Communication Engineering.
+                    I have hands-on experience in frontend web development and a solid understanding of programming
+                    concepts.
+                </p>
+                <br>
+                <p>
+                    I am highly adaptable, quick to learn new technologies, and comfortable working in collaborative
+                    team environments.
+                    My strengths include logical thinking, debugging, structured coding practices, and effective
+                    communication.
+                </p>
+                <br>
+                <p>
+                    I am actively enhancing my skills in modern web technologies and aiming to transition into advanced
+                    frontend
+                    and full-stack development roles.
+                </p>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="card">
+                <ul>
+                    <li><strong>Frontend Development:</strong> HTML5, CSS3, Basic JavaScript</li>
+                    <li><strong>Programming Languages:</strong> C, Python</li>
+                    <li><strong>Embedded Systems:</strong> ARM Cortex-M0+, Microcontroller Programming</li>
+                    <li><strong>IoT:</strong> Sensor Integration, Remote Monitoring Systems</li>
+                    <li><strong>Tools:</strong> VS Code, Git, GitHub</li>
+                    <li><strong>Soft Skills:</strong> Team Collaboration, Problem-Solving, Time Management</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <div class="card">
+                <h3>Associate Software Engineer</h3>
+                <p>
+                    Currently working in the IT domain, contributing to frontend development tasks.
+                    Responsible for designing responsive UI components using HTML and CSS,
+                    implementing interactive features using JavaScript, and ensuring cross-browser compatibility.
+                </p>
+                <br>
+                <p>
+                    Actively participating in team meetings, debugging issues, optimizing performance,
+                    and following agile development methodologies.
+                </p>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="card">
+                <h3>IoT-Based Home Automation System</h3>
+                <p>
+                    Designed and implemented a three-layer IoT architecture system to monitor and control home
+                    appliances remotely.
+                    Integrated sensors and microcontrollers to enable real-time communication between devices and users.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Embedded Systems Multi-Application Development</h3>
+                <p>
+                    Developed multiple embedded applications on ARM Cortex-M0+ microcontroller using Embedded C.
+                    Implemented peripheral interfacing, debugging, and hardware-software integration.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Sign Language to Text Conversion System</h3>
+                <p>
+                    Built a Python-based system that interprets hand gestures and converts them into readable text.
+                    Applied basic machine learning concepts to improve gesture recognition accuracy.
+                </p>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <div class="card">
+                <p><strong>Email:</strong> giridhar.parlapalli1@gmail.com</p>
+                <p><strong>Phone:</strong> +91 8179721034</p>
+                <p><strong>Location:</strong> India</p>
+                <br>
+                <p>
+                    I am open to new opportunities, collaborations, and challenging projects.
+                    Feel free to reach out for professional discussions or job opportunities.
+                </p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        © 2026 Giridhar Reddy Parlapalli | All Rights Reserved
+    </footer>
+
+</body>
+
+</html>
